@@ -1,0 +1,82 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+local Window = OrionLib:MakeWindow({Name = "Visual Blade ball", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://10618644218",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("i Revamped everything -fsploit")
+
+Tab:AddLabel("Toggle them Once!")
+
+Tab:AddDropdown({
+	Name = "Dropdown",
+	Default = "Normal",
+	Options = {"Normal", " OP"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Toggle Auto Parry",
+	Default = false,
+	Callback = function(Value)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Parry/main/auto"))()
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Toggle Manual Spam",
+	Default = false,
+	Callback = function(Value)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Auto-spam/main/Manual-spam"))()
+		print(Value)
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Settings",
+	Icon = "rbxassetid://10618644218",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Settings ")
+
+
+Tab:AddButton({
+	Name = "Rejoin",
+	Callback = function()
+local ts = game:GetService("TeleportService")
+				local p = game:GetService("Players").LocalPlayer
+				ts:Teleport(game.PlaceId, p)
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fps Boost",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PkMN7QKQ"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel("Credits")
+
+Tab:AddParagraph("Join Our Discord! For more!","https://discord.com/invite/53fFHv7jj3")
+
+Tab:AddParagraph("PxyPixel Development Team","Powers the ui lib")
+
+Tab:AddParagraph("Fsploit ","Creator of the script")
+
+Tab:AddParagraph("Bl423 or blaze","Owner of the script")
+
+Tab:AddParagraph("Vien","Owner of WL Hub and Assistance")
+
+Tab:AddParagraph("Soulzx","Assistant and a Developer")
+
+Tab:AddParagraph("Robin","Assistant and Real giveaway hoster")
