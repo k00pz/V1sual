@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
-local Window = OrionLib:MakeWindow({Name = "Visual Blade ball", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Mercury.net", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
@@ -67,16 +67,14 @@ loadstring(game:HttpGet("https://pastebin.com/raw/PkMN7QKQ"))()
 
 Tab:AddLabel("Credits")
 
-Tab:AddParagraph("Join Our Discord! For more!","https://discord.com/invite/53fFHv7jj3")
+Tab:AddParagraph("Join Our Discord! For more!","discord.gg/exploitx")
 
-Tab:AddParagraph("PxyPixel Development Team","Powers the ui lib")
+Tab:AddParagraph("Exploit X Development Team","Powers the ui lib")
 
 Tab:AddParagraph("Fsploit ","Creator of the script")
 
 Tab:AddParagraph("Bl423 or blaze","Owner of the script")
 
-Tab:AddParagraph("Vien","Owner of WL Hub and Assistance")
+Tab:AddParagraph("Gearv4","Assistance")
 
-Tab:AddParagraph("Soulzx","Assistant and a Developer")
 
-Tab:AddParagraph("Robin","Assistant and Real giveaway hoster")
